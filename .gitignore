@@ -1,0 +1,14 @@
+# npm
+node_modules/
+
+# serverless framework
+.serverless/
+
+# python
+*.pyc
+.venv
+.env
+
+# others
+.idea/
+*.swp

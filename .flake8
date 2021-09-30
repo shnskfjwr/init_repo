@@ -1,0 +1,9 @@
+[flake8]
+ignore = E501
+exclude =
+    .git,
+    .venv,
+    .serverless,
+    __pycache__,
+    **/__init__.py,
+max-complexity = 10

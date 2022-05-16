@@ -21,7 +21,7 @@ def initialize(repo):
     )
 
     # ブランチ保護
-    targets = ['develop', 'staging', 'main', 'master']
+    targets = ['develop', 'staging', 'main', 'master', 'stg']
     for branch in repo.get_branches():
         if branch.name in targets:
             # 保護の有効化
